@@ -116,7 +116,7 @@ body {
   margin-top: -450px;
 }
 
-#servicios {
+#menu {
   height: 550px;
   width: 100%;
   background-size: 100% 100%;
@@ -125,7 +125,7 @@ body {
   padding-top: 3%;
 }
 
-#servicios img {
+#menu img {
   width: 25%;
   display: block;
   float: left;
@@ -134,7 +134,7 @@ body {
   padding-right: 0%;
 }
 
-#servicios p {
+#menu p {
   width: 25%;
   text-align: center;
   padding-top: 3%;
