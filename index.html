@@ -1,108 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8"/>
-    <title>
-      Pizzería
-    </title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-  </head>
-  <body>
-    <div id="contenedor">
-    <div id="menu-desplegable">
-      <ul class="nav">
-        <li>
-          <a href="index.html" class="active">
-            Inicio
-          </a>
-          <ul>
-        <li>
-          <a href="#menu">
-            Menú
-          </a>
-        </li>
-        <li>
-          <a href="#galeria">
-            Galeria
-          </a>
-        </li>
-        <li>
-          <a href="#contactos">
-            Contacto
-          </a> 
-        </li>
-        <li>
-          <a href="#ubicacion">
-            Ubicación
-          </a> 
-        </li>
-        <li>
-          <a href="#acercade">
-            Acerca de
-          </a> 
-        </li>
-      </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criptomonedas</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div class="social">
+    <a href="https://www.facebook.com/"><img src="img/icon/facebook.png" alt="facebook"></a>
+    <a href="https://www.youtube.com/"><img src="img/icon/youtube.png" alt="youtube"></a>
+    <a href="https://www.linkedin.com/"><img src="img/icon/linkedin.png" alt="linkedin"></a>
+    <a href="https://www.instagram.com/"><img src="img/icon/instagram.png" alt="instagram"></a>
+  </div>
+  <div class="menu-desplegable">
+    <ul class="nav">
+      <li>
+        <a href="index.html">Inicio</a>
+        <ul>
+          <li><a href="#caracteristicas">Características</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#definicion">Definición Formal</a></li>
+          <li><a href="#arquitectura">Arquitectura</a></li>
+          <li><a href="#legalidad">Legalidad</a></li>
+        </ul>
       </li>
-      </ul>
-    </div>
-    <div id="cabecera" style="background-image: url(&quot;img/pizza.jpg&quot;);"> 
-    </div>
-    <div id="menu" style="background-image: url(&quot;img/menu.jpg&quot;);">
-    </div>
-    <div id="galeria">
-      <h2>
-        Galería
-      </h2>
-      <img src="img/pasticho.jpg" alt=""/>
-      <img src="img/pizza2.jpg" alt=""/>
-      <img src="img/ravioli.jpg" alt=""/>
-    </div>
-    <div id="contactos"></div>
-    <div id="transparente">
-      <h2>
-        CONTÁCTANOS
-      </h2>
-      <form action="#" method="post" name="contactos">
-      <section style="width: 50%; float: left;"> 
-          <input class="input" type="text" name="nombre" placeholder="Ej: Pepito Pérez"/>
-          <br/> 
-          <input class="input" type="email" name="correo" placeholder="Ej: pepitop@hotmail.com"/>
-          <br/> 
-          <input class="input" type="text" name="telefono" placeholder="Ej: 04141234567"/> 
-        </section>
-        <aside style="width: 50%; float: left;"> 
-          <textarea class="textarea" rows="10" name="mensaje" placeholder="Ej: Quiero una pizza napolitana"></textarea>        
-        </aside>
-        <aside style="width: 100%; float: left; text-align: center; position: relative; display: flex; justify-content: center;"> 
-          <input class="button" type="submit" value="Enviar Mensaje" style="width: 20%; height: 40px;"/> 
-        </aside>
-      </form>
-    </div>
-    </div>
-    <div id="mapa" style="background-image: url(&quot;img/mapa.png&quot;);"></div>
-    <div id="acercade" style="background-image: url(&quot;img/pizza_delivery.jpg&quot;);">
-      <h2>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        Acerca De 
-        <br/>
-        <br/>
-        Somos una pizzería ubicado en el municipio Maracaibo.
-        <br/> 
-        Vendemos las mejores pizzas adomicilio.
-        <br/>
-        ¡Si no te llega en 15 minutos te la dejamos gratis!
-      </h2>
-    </div>
-    <div id="pie">
-      <div id="izq">
-        Copyrigth 2020. Todos los derechos reservados
-      </div>
-      <div id="der">
-        Ramiro Flores
+    </ul>
+  </div>
+  <div class="parallax"></div>
+  <div class="container">
+    <a class="ad" href="#"><img src="img/ad.gif" alt="ad" /></a>
+    <div id="caracteristicas">
+      <div class="parrafo">
+        <h2>Características</h2>
+        <p>
+          Una <b>criptomoneda</b>, <b>criptodivisa</b> o <b>criptoactivo</b> es un medio digital de intercambio que utiliza criptografía fuerte para asegurar las transacciones, controlar la creación de unidades adicionales y verificar la transferencia
+          de activos usando tecnologías de registro distribuido. Las criptomonedas son un tipo de divisa alternativa o moneda digital. Existe controversia respecto a que las criptomonedas tienen que ser de control descentralizado o monedas centralizadas
+          por los bancos centrales u otra entidad.
+        </p>
+        <p>
+          El control de cada moneda funciona a través de una base de datos descentralizada, usualmente una cadena de bloques, que sirve como una base de datos de transacciones financieras pública.
+        </p>
+        <p>
+          La primera criptomoneda que empezó a operar fue Bitcoin en 2009, y desde entonces han aparecido otras con diferentes características como Litecoin, Ethereum, Bitcoin Cash, Ripple, Dogecoin.
+        </p>
       </div>
     </div>
-  </body>
+    <div id="historia">
+      <div class="parrafo">
+        <h2>Historia</h2>
+        <p>
+          En 1983, el criptógrafo estadounidense David Chaum concibió un sistema criptográfico monetario electrónico llamado eCash. Más tarde, en 1995, implementó DigiCash, que utilizaba la criptografía para volver anónimas las transacciones de dinero, aunque con
+          una emisión y liquidación (pago) centralizado. Este sistema requería un software para retirar dinero de un banco y designar claves cifradas específicas antes de que puedan enviarse a un destinatario. Esto permitió que la moneda digital no fuera
+          rastreable por el banco emisor, el gobierno o cualquier tercero.
+        </p>
+        <p>
+          En 1996, la NSA publicó una investigación titulada How to make a Mint: the Cryptography of Anonymous Electronic Cash. Esta investigación describía un sistema de criptodivisa, publicada en una lista de correo del MIT. Más tarde, en 1997 fue publicada en
+          The American Law Review (Vol. 46, Issue 4).
+        </p>
+        <p>
+          El concepto o idea de criptomoneda fue descrita por primera vez por Wei Dai, en 1998, donde propuso la idea de crear un nuevo tipo de dinero descentralizado que usara la criptografía como medio de control, mientras que la primera criptomoneda que se creó
+          fue Bitcoin, creada en 2009 por el desarrollador de pseudónimo Satoshi Nakamoto, el cual usa el conjunto de funciones criptográficas SHA-2 (exactamente el SHA-256) como su esquema PoW (prueba de trabajo). Posteriormente, han aparecido otras
+          criptomonedas, como Namecoin (un intento de descentralizar el sistema de nombres de dominio DNS, lo que haría muy difícil la censura de internet), Litecoin (el cual utiliza scrypt como esquema PoW, así como también, para tener una confirmación
+          de transacción más rápida), Peercoin (el cual utiliza un esquema híbrido PoW/PoS [prueba de trabajo/prueba de participación], además tiene una tasa de inflación del alrededor de 1 %) y Freicoin (el cuál implementó el concepto de Silvio Gesell
+          agregando depreciación en el tiempo).​ Muchas otras criptomonedas han sido creadas, aunque no todas han sido exitosas, en especial aquellas que no han aportado ninguna innovación.
+        </p>
+        <p>
+          Desde su creación, las criptomonedas han ido ganando paulatinamente la atención del público general y de los medios de comunicación.​ Desde 2011, el interés ha aumentado rápidamente, en especial, durante el ascenso vertiginoso de Bitcoin, en abril de
+          2013.
+        </p>
+        <p>
+          El tope del mercado de criptomonedas se ha proyectado para llegar a $ 1-2 billones en 2018.
+        </p>
+        <p>
+          El 6 de agosto de 2014, Reino Unido anunció el encargó al tesoro un estudio de las criptomonedas. En este estudio debería figurar qué rol podría jugar este tipo de monedas en la economía de Reino Unido. También se encargó qué regulaciones deberían ser
+          consideradas.
+        </p>
+      </div>
+    </div>
+    <div id="definicion">
+      <div class="parrafo">
+        <h2>Definición Formal</h2>
+        <p>
+          Según Jan Lansky, una criptodivisa es un sistema que cumple las siguientes seis condiciones:
+        </p>
+        <ul>
+          <li>1. El sistema no necesita una autoridad central. Así, su estado es mantenido a través de un consenso distribuido.</li><br/>
+          <li>2. El sistema mantiene todas las unidades y su propietario.</li><br/>
+          <li>3. El sistema define si se pueden crear nuevas unidades. En este caso, el sistema debe definir las circunstancias de su origen y cómo determinar el propietario de las nuevas unidades.</li><br/>
+          <li>4. Solo se puede asegurar la propiedad de una unidad a un usuario de manera criptográfica.</li><br/>
+          <li>5. El sistema permite las transacciones de unidades, en las cuales se cambia el propietario de dichas unidades. Una transacción solo puede ser efectuada si se puede probar el actual propietario de estas unidades.</li><br/>
+          <li>6. Si se efectúan dos transacciones sobre las mismas unidades, el sistema solo ejecuta una de ellas.</li>
+        </ul>
+      </div>
+    </div>
+    <div id="arquitectura">
+      <div class="parrafo">
+        <h2>Arquitectura</h2>
+        <p>
+          Las criptodivisas descentralizadas son producidas colectivamente por todo el sistema, a un radio públicamente conocido que es especificado cuando ese sistema se crea. En los bancos centrales y en los sistemas económicos tradicionales, los gobiernos controlan
+          la cantidad de monedas en el mercado (por ejemplo, imprimiendo moneda o exigiendo adiciones a los libros de contabilidad). En el caso de las criptomonedas descentralizadas, las empresas o los gobiernos no pueden producir nuevas unidades. Las
+          criptomonedas tampoco tienen un activo detrás que respalde su valor, al contrario de las monedas tradicionales. El sistema actual está basado por el individuo o grupo conocido como Satoshi Nakamoto.
+        </p>
+        <p>
+          En mayo de 2018 existían cerca de 1800 criptomonedas. En un sistema de criptodivisas, la integridad, seguridad y balance de las cuentas es mantenida por una comunidad conocida como los mineros. Esta comunidad usan sus ordenadores u otro hardware especializado
+          para validar y fechar las transacciones, añadiéndolas a una base de datos colectiva.
+        </p>
+        <p>
+          Muchas criptomonedas están diseñadas para ir disminuyendo la producción de unidades gradualmente, imponiendo un límite en la cantidad total que unidades que puede haber en circulación. Comparado con los sistemas monetarios tradicionales, las criptomonedas
+          son más difíciles de legislar debido a la criptografía usada en el sistema.
+        </p>
+      </div>
+    </div>
+    <div id="legalidad">
+      <div class="parrafo">
+        <h2>Legalidad</h2>
+        <p>
+          El uso de estas criptomonedas en actividades ilegales, así como la imposibilidad por parte de los gobiernos de establecer políticas impositivas sobre transacciones realizadas a través de dicho medio, es motivo de controversias.
+        </p>
+        <ul>
+          <li>
+            • Bolivia se ha convertido en el primer país en prohibir explícitamente el uso de criptomonedas, en junio 2014, tras conocerse de la quiebra en Japón de la compañía Bitcoins Mt.Gox y perjudicando a más de un millón de personas.
+          </li>
+          <br/>
+          <li>
+            • En Venezuela antes del 9 de abril de 2018 se desmantelaron minas de criptomonedas, arrestando a sus dueños por «legitimación de capitales, enriquecimiento ilícito, delitos informáticos, financiamiento al terrorismo, fraude cambiario y daños al sistema
+            eléctrico nacional». A partir del 9 de abril de 2018 por medio de Decreto la Asamblea Nacional Constituyente legaliza toda existencia y creación de todo criptoactivo incluyendo al Petro.​ También permite que cualquier persona natural o jurídica,
+            privada o pública, pueda publicar su propio Libro Blanco,​ siendo el primer paso para iniciar el proceso de registro y control de la nueva criptomoneda a crear ante el Ejecutivo Nacional.​ Así mismo se ordena a todos los entes del Estado a
+            preparar su estructura burocrática a fin de recibir y pagar con las criptomonedas que estén debidamente registradas.
+          </li>
+          <br/>
+          <li>
+            • Existen servicios como CryptoLife y WalletBuilders que le ayudan a crear su propia criptomoneda de forma rápida y fácil. Estos servicios le ofrecen a usted todo el conocimiento técnico para llevar a cabo el proceso, y a través de ellos su moneda puede
+            estar al aire en un día. No obstante, debe esperar que le cobren por el servicio y además, muchos piden que usted exponga su plan de negocios y demuestre que su interés va más allá de ‘la simple curiosidad’.
+          </li>
+          <br/>
+          <li>
+            • En España, para efectos de responsabilidad civil, el Bitcoin no es considerado dinero como tal, ni tampoco de forma legal.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"></div>
+  <div class="pie">
+    <div class="izq">Copyrigth 2020. Todos los derechos reservados</div>
+    <div class="der">Ramiro Flores</div>
+  </div>
+</body>
+
 </html>

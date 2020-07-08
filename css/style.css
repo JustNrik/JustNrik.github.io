@@ -1,23 +1,36 @@
 html,
 body {
+  height: 100%;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   scroll-behavior: smooth;
 }
 
-#contenedor {
+.ad img {
+  width: 125px;
+  height: 125px;
+}
+
+.parallax {
+  background-image: url("../img/crypto.jpeg");
+  height: 20%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
   width: 100%;
-  height: 100%;
-  margin: 0 0 0 0;
+  padding: 32px 64px;
 }
 
 .nav {
   width: 100%;
-  height: 50px;
   background-color: black;
   color: white;
-  line-height: 25px;
   position: fixed;
+  margin-top: 0px;
   top: 0
 }
 
@@ -29,189 +42,82 @@ body {
   justify-content: flex-end;
 }
 
-#nav ul li {
-  display: block;
-  width: 120px;
-  float: left;
-  text-align: center;
-}
-
-#nav ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-#nav ul li a:hover {
-  background-color: #585858;
-  color: #fff;
-}
-
-.active {
+.nav ul li a:hover {
   background-color: #4CAF50;
 }
 
-#cabecera {
-  height: 350px;
-  width: 100%;
-  background-size: 100% 100%;
-  margin-bottom: -20px;
+.menu-desplegable {
+  margin: auto;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#cabecera img {
-  height: 180px;
-  margin-top: 15px;
-  margin-left: 25px;
+ul,
+ol {
+  list-style: none;
 }
 
-#contactos {
-  text-align: center;
-  height: 450px;
-  width: 100%;
-  background-color: silver;
-  background-size: 100% 100%;
-  margin-top: 0px;
-  z-index: 0;
-  color:white;
-}
-
-#transparente h2 {
-  color: white;
-  text-align: center;
-  margin-top: 60px;
-}
-
-#menu-desplegable {
-  margin:auto;
-  width:auto;
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-ul, ol {
-  list-style:none;
-}
-
-.nav > li {
+.nav>li {
   float: left;
 }
 
 .nav li a {
-  background-color:#000;
-  color:#fff;
-  text-decoration:none;
-  padding:10px 12px;
-  display:block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.parrafo {
+  padding-top: 30px;
+  color: black;
+  font-family: sans-serif;
+  font-size: medium;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.social {
+  height: 205px;
+  width: 64px;
+  margin-top: -100px;
+  right: 0;
+  top: 50px;
+  top: 50%;
+  position: fixed;
 }
 
 .nav li a:hover {
-  background-color:#434343;
+  background-color: #434343;
 }
 
 .nav li ul {
-  display:none;
-  position:absolute;
-  min-width:140px;
+  display: none;
+  position: absolute;
+  min-width: 140px;
 }
 
-.nav li:hover > ul {
-  display:block;
-}
-
-.nav li ul li {
-  position:relative;
-}
-
-.nav li ul li ul {
-  right:-140px;
-  top:0px;
-}
-
-.input {
-  width: 500px;
-  height: 30px;
-  margin-bottom: 20px;
-  color: black;
-  float: right;
-  margin-right: 20px;
-}
-
-.textarea {
-  height: 140px;
-  width: 500px;
-  color: black;
-  float: none;
-}
-
-.button {
-  width: 500px;
-  color: black;
-  float: none;
-}
-
-#transparente {
-  z-index: 1;
-  width: 100%;
-  height: 450px;
-  background-color: black;
-  border: 1px solid black;
-  opacity: 0.3;
-  filter: alpha(opacity=90);
-  position: relative;
-  margin-top: -450px;
-}
-
-#menu {
-  height: 550px;
-  width: 100%;
-  background-size: 100% 100%;
-  text-align: center;
-  color: #fff;
-  padding-top: 3%;
-}
-
-#menu img {
-  width: 25%;
+.nav li:hover>ul {
   display: block;
-  float: left;
-  padding-top: 3%;
-  padding-left: 6%;
-  padding-right: 0%;
 }
 
-#menu p {
-  width: 25%;
-  text-align: center;
-  padding-top: 3%;
-  padding-left: 6%;
-  padding-right: 0%;
-  display: block;
-  float: left;
-}
-
-#mapa {
-  height: 350px;
-  width: 100%;
-  background-size: 100% 100%;
-}
-
-#acercade {
-  height: 500px;
-  width: 100%;
-  background-size: 100% 100%;
-}
-
-#pie {
+.pie {
   height: 50px;
   width: 100%;
   color: white;
   line-height: 50px;
   text-align: center;
+  margin-top: 0px;
 }
 
-#izq {
+.izq {
   height: 100%;
-  width: 49.2%;
+  width: 50%;
   background-color: black;
   color: white;
   text-align: left;
@@ -219,12 +125,12 @@ ul, ol {
   float: left;
 }
 
-#der {
+.der {
   height: 100%;
-  width: 49.1%;
+  width: 50%;
   background-color: black;
   color: white;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 20px;
   float: left;
 }
